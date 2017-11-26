@@ -66,6 +66,12 @@ object Form2: TForm2
     Width = 441
     Height = 361
     TabOrder = 1
+    object Image1: TImage
+      Left = 0
+      Top = -8
+      Width = 441
+      Height = 369
+    end
   end
   object DataSource1: TDataSource
     DataSet = VirtualTable1

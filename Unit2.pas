@@ -18,6 +18,7 @@ type
     DataSource1: TDataSource;
     VirtualTable1: TVirtualTable;
     DelphiTwain1: TDelphiTwain;
+    Image1: TImage;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button3Click(Sender: TObject);
@@ -87,6 +88,11 @@ begin
   VirtualTable1.Append;
   VirtualTable1['Image'] := Gambar;
   VirtualTable1.Post;
+end;
+
+function TForm2.NamaGambar: string;
+begin
+
 end;
 
 end.

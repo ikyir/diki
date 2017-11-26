@@ -86,7 +86,7 @@ namapdf, lokasihapus : string;
 begin
   if asalScan = 0 then
   begin
-  namapdf := Form1.Edit1.Text+'-'+Form1.Edit2.Text+'-'+waktu+'Surat-masuk.pdf';
+  namapdf := Form1.Edit1.Text+'-'+Form1.Edit2.Text+'-'+waktu+ 'Surat-masuk.pdf';
   PDFku := TfrxCustomExportFilter(frxPDFExport1);
   PDFku.ShowDialog := False;
   PDFku.FileName := ExtractFilePath(Application.ExeName)+'\FilePDF\'+namapdf;

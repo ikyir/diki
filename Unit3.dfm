@@ -41,7 +41,7 @@ object Form3: TForm3
       Top = 0
       Width = 769
       Height = 321
-      OutlineVisible = True
+      OutlineVisible = False
       OutlineWidth = 121
       ThumbnailVisible = False
     end
